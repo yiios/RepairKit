@@ -21,7 +21,9 @@
     NSString *repairDBPath = [self copyFile2Documents:@"test-repair"];
     
     WCRepairKitManage *manage = [WCRepairKitManage shareManage];
+    // 备份数据库
 //    [manage backupDBPath:repairDBPath];
+    // 修复数据库
     [manage recoveryDBPath:repairDBPath DBPageSize:4096];
     
     return YES;
