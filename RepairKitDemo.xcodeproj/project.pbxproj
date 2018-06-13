@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D55C4B920CFE62F00FF1B03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4B820CFE62F00FF1B03 /* AppDelegate.m */; };
+		3D55C4BC20CFE62F00FF1B03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4BB20CFE62F00FF1B03 /* ViewController.m */; };
+		3D55C4BF20CFE62F00FF1B03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D55C4BD20CFE62F00FF1B03 /* Main.storyboard */; };
+		3D55C4C220CFE62F00FF1B03 /* RepairKitDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4C020CFE62F00FF1B03 /* RepairKitDemo.xcdatamodeld */; };
+		3D55C4C420CFE63100FF1B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D55C4C320CFE63100FF1B03 /* Assets.xcassets */; };
+		3D55C4C720CFE63100FF1B03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D55C4C520CFE63100FF1B03 /* LaunchScreen.storyboard */; };
+		3D55C4CA20CFE63100FF1B03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4C920CFE63100FF1B03 /* main.m */; };
+		3D55C4E720CFE64B00FF1B03 /* sqliterk_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4D320CFE64B00FF1B03 /* sqliterk_util.c */; };
+		3D55C4E820CFE64B00FF1B03 /* sqliterk_btree.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4D420CFE64B00FF1B03 /* sqliterk_btree.c */; };
+		3D55C4E920CFE64B00FF1B03 /* sqliterk_pager.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4D720CFE64B00FF1B03 /* sqliterk_pager.c */; };
+		3D55C4EA20CFE64B00FF1B03 /* sqliterk_column.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4D920CFE64B00FF1B03 /* sqliterk_column.c */; };
+		3D55C4EB20CFE64B00FF1B03 /* sqliterk_values.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4DA20CFE64B00FF1B03 /* sqliterk_values.c */; };
+		3D55C4EC20CFE64B00FF1B03 /* sqliterk_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4DB20CFE64B00FF1B03 /* sqliterk_api.c */; };
+		3D55C4ED20CFE64B00FF1B03 /* sqliterk_output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4DC20CFE64B00FF1B03 /* sqliterk_output.cpp */; };
+		3D55C4EE20CFE64B00FF1B03 /* sqliterk.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4DD20CFE64B00FF1B03 /* sqliterk.c */; };
+		3D55C4EF20CFE64B00FF1B03 /* sqliterk_crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4DF20CFE64B00FF1B03 /* sqliterk_crypto.c */; };
+		3D55C4F020CFE64B00FF1B03 /* sqliterk_os.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4E220CFE64B00FF1B03 /* sqliterk_os.c */; };
+		3D55C4F120CFE64B00FF1B03 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D55C4E620CFE64B00FF1B03 /* Info.plist */; };
+		3D55C4F420CFE6A200FF1B03 /* WCRepairKitManage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4F320CFE6A200FF1B03 /* WCRepairKitManage.mm */; };
+		3D55C4F720CFE84F00FF1B03 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D55C4F620CFE84F00FF1B03 /* libsqlite3.0.tbd */; };
+		3D55C4F920CFE86600FF1B03 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D55C4F820CFE86600FF1B03 /* libz.tbd */; };
+		3D55C4FB20CFE89200FF1B03 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D55C4FA20CFE89200FF1B03 /* Security.framework */; };
+		3D55C4FD20CFE89D00FF1B03 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D55C4FC20CFE89D00FF1B03 /* CoreFoundation.framework */; };
+		3D55C4FF20CFE8C000FF1B03 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D55C4FE20CFE8C000FF1B03 /* libsqlite3.tbd */; };
+		3D55C50220CFF2A700FF1B03 /* sqlcipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D55C50120CFF2A700FF1B03 /* sqlcipher.framework */; };
+		3D55C50420CFF44400FF1B03 /* test-repair in Resources */ = {isa = PBXBuildFile; fileRef = 3D55C50320CFF44400FF1B03 /* test-repair */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D55C4B420CFE62F00FF1B03 /* RepairKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepairKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D55C4B720CFE62F00FF1B03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D55C4B820CFE62F00FF1B03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D55C4BA20CFE62F00FF1B03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D55C4BB20CFE62F00FF1B03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D55C4BE20CFE62F00FF1B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D55C4C120CFE62F00FF1B03 /* RepairKitDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RepairKitDemo.xcdatamodel; sourceTree = "<group>"; };
+		3D55C4C320CFE63100FF1B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D55C4C620CFE63100FF1B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D55C4C820CFE63100FF1B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D55C4C920CFE63100FF1B03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D55C4D320CFE64B00FF1B03 /* sqliterk_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqliterk_util.c; sourceTree = "<group>"; };
+		3D55C4D420CFE64B00FF1B03 /* sqliterk_btree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqliterk_btree.c; sourceTree = "<group>"; };
+		3D55C4D520CFE64B00FF1B03 /* sqliterk_crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqliterk_crypto.h; sourceTree = "<group>"; };
+		3D55C4D620CFE64B00FF1B03 /* SQLiteRepairKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteRepairKit.h; sourceTree = "<group>"; };
+		3D55C4D720CFE64B00FF1B03 /* sqliterk_pager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqliterk_pager.c; sourceTree = "<group>"; };
+		3D55C4D820CFE64B00FF1B03 /* sqliterk_os.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqliterk_os.h; sourceTree = "<group>"; };
+		3D55C4D920CFE64B00FF1B03 /* sqliterk_column.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqliterk_column.c; sourceTree = "<group>"; };
+		3D55C4DA20CFE64B00FF1B03 /* sqliterk_values.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqliterk_values.c; sourceTree = "<group>"; };
+		3D55C4DB20CFE64B00FF1B03 /* sqliterk_api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqliterk_api.c; sourceTree = "<group>"; };
+		3D55C4DC20CFE64B00FF1B03 /* sqliterk_output.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sqliterk_output.cpp; sourceTree = "<group>"; };
+		3D55C4DD20CFE64B00FF1B03 /* sqliterk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqliterk.c; sourceTree = "<group>"; };
+		3D55C4DE20CFE64B00FF1B03 /* sqliterk_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqliterk_util.h; sourceTree = "<group>"; };
+		3D55C4DF20CFE64B00FF1B03 /* sqliterk_crypto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqliterk_crypto.c; sourceTree = "<group>"; };
+		3D55C4E020CFE64B00FF1B03 /* sqliterk_btree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqliterk_btree.h; sourceTree = "<group>"; };
+		3D55C4E120CFE64B00FF1B03 /* sqliterk_values.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqliterk_values.h; sourceTree = "<group>"; };
+		3D55C4E220CFE64B00FF1B03 /* sqliterk_os.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqliterk_os.c; sourceTree = "<group>"; };
+		3D55C4E320CFE64B00FF1B03 /* sqliterk_column.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqliterk_column.h; sourceTree = "<group>"; };
+		3D55C4E420CFE64B00FF1B03 /* sqliterk_pager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqliterk_pager.h; sourceTree = "<group>"; };
+		3D55C4E520CFE64B00FF1B03 /* sqliterk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqliterk.h; sourceTree = "<group>"; };
+		3D55C4E620CFE64B00FF1B03 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D55C4F220CFE6A200FF1B03 /* WCRepairKitManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCRepairKitManage.h; sourceTree = "<group>"; };
+		3D55C4F320CFE6A200FF1B03 /* WCRepairKitManage.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WCRepairKitManage.mm; sourceTree = "<group>"; };
+		3D55C4F620CFE84F00FF1B03 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		3D55C4F820CFE86600FF1B03 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3D55C4FA20CFE89200FF1B03 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3D55C4FC20CFE89D00FF1B03 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		3D55C4FE20CFE8C000FF1B03 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3D55C50120CFF2A700FF1B03 /* sqlcipher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = sqlcipher.framework; sourceTree = "<group>"; };
+		3D55C50320CFF44400FF1B03 /* test-repair */ = {isa = PBXFileReference; lastKnownFileType = file; path = "test-repair"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D55C4B120CFE62F00FF1B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D55C4FF20CFE8C000FF1B03 /* libsqlite3.tbd in Frameworks */,
+				3D55C4FD20CFE89D00FF1B03 /* CoreFoundation.framework in Frameworks */,
+				3D55C50220CFF2A700FF1B03 /* sqlcipher.framework in Frameworks */,
+				3D55C4FB20CFE89200FF1B03 /* Security.framework in Frameworks */,
+				3D55C4F920CFE86600FF1B03 /* libz.tbd in Frameworks */,
+				3D55C4F720CFE84F00FF1B03 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D55C4AB20CFE62F00FF1B03 = {
+			isa = PBXGroup;
+			children = (
+				3D55C4D220CFE64B00FF1B03 /* RepairKit */,
+				3D55C4B620CFE62F00FF1B03 /* RepairKitDemo */,
+				3D55C4B520CFE62F00FF1B03 /* Products */,
+				3D55C4F520CFE84F00FF1B03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D55C4B520CFE62F00FF1B03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D55C4B420CFE62F00FF1B03 /* RepairKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D55C4B620CFE62F00FF1B03 /* RepairKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D55C4B720CFE62F00FF1B03 /* AppDelegate.h */,
+				3D55C4B820CFE62F00FF1B03 /* AppDelegate.m */,
+				3D55C4BA20CFE62F00FF1B03 /* ViewController.h */,
+				3D55C4BB20CFE62F00FF1B03 /* ViewController.m */,
+				3D55C4F220CFE6A200FF1B03 /* WCRepairKitManage.h */,
+				3D55C4F320CFE6A200FF1B03 /* WCRepairKitManage.mm */,
+				3D55C50320CFF44400FF1B03 /* test-repair */,
+				3D55C4BD20CFE62F00FF1B03 /* Main.storyboard */,
+				3D55C4C320CFE63100FF1B03 /* Assets.xcassets */,
+				3D55C4C520CFE63100FF1B03 /* LaunchScreen.storyboard */,
+				3D55C4C820CFE63100FF1B03 /* Info.plist */,
+				3D55C4C920CFE63100FF1B03 /* main.m */,
+				3D55C4C020CFE62F00FF1B03 /* RepairKitDemo.xcdatamodeld */,
+			);
+			path = RepairKitDemo;
+			sourceTree = "<group>";
+		};
+		3D55C4D220CFE64B00FF1B03 /* RepairKit */ = {
+			isa = PBXGroup;
+			children = (
+				3D55C4D320CFE64B00FF1B03 /* sqliterk_util.c */,
+				3D55C4D420CFE64B00FF1B03 /* sqliterk_btree.c */,
+				3D55C4D520CFE64B00FF1B03 /* sqliterk_crypto.h */,
+				3D55C4D620CFE64B00FF1B03 /* SQLiteRepairKit.h */,
+				3D55C4D720CFE64B00FF1B03 /* sqliterk_pager.c */,
+				3D55C4D820CFE64B00FF1B03 /* sqliterk_os.h */,
+				3D55C4D920CFE64B00FF1B03 /* sqliterk_column.c */,
+				3D55C4DA20CFE64B00FF1B03 /* sqliterk_values.c */,
+				3D55C4DB20CFE64B00FF1B03 /* sqliterk_api.c */,
+				3D55C4DC20CFE64B00FF1B03 /* sqliterk_output.cpp */,
+				3D55C4DD20CFE64B00FF1B03 /* sqliterk.c */,
+				3D55C4DE20CFE64B00FF1B03 /* sqliterk_util.h */,
+				3D55C4DF20CFE64B00FF1B03 /* sqliterk_crypto.c */,
+				3D55C4E020CFE64B00FF1B03 /* sqliterk_btree.h */,
+				3D55C4E120CFE64B00FF1B03 /* sqliterk_values.h */,
+				3D55C4E220CFE64B00FF1B03 /* sqliterk_os.c */,
+				3D55C4E320CFE64B00FF1B03 /* sqliterk_column.h */,
+				3D55C4E420CFE64B00FF1B03 /* sqliterk_pager.h */,
+				3D55C4E520CFE64B00FF1B03 /* sqliterk.h */,
+				3D55C50120CFF2A700FF1B03 /* sqlcipher.framework */,
+				3D55C4E620CFE64B00FF1B03 /* Info.plist */,
+			);
+			path = RepairKit;
+			sourceTree = "<group>";
+		};
+		3D55C4F520CFE84F00FF1B03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D55C4FE20CFE8C000FF1B03 /* libsqlite3.tbd */,
+				3D55C4FC20CFE89D00FF1B03 /* CoreFoundation.framework */,
+				3D55C4FA20CFE89200FF1B03 /* Security.framework */,
+				3D55C4F820CFE86600FF1B03 /* libz.tbd */,
+				3D55C4F620CFE84F00FF1B03 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D55C4B320CFE62F00FF1B03 /* RepairKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D55C4CD20CFE63100FF1B03 /* Build configuration list for PBXNativeTarget "RepairKitDemo" */;
+			buildPhases = (
+				3D55C4B020CFE62F00FF1B03 /* Sources */,
+				3D55C4B120CFE62F00FF1B03 /* Frameworks */,
+				3D55C4B220CFE62F00FF1B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RepairKitDemo;
+			productName = RepairKitDemo;
+			productReference = 3D55C4B420CFE62F00FF1B03 /* RepairKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D55C4AC20CFE62F00FF1B03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Limo;
+				TargetAttributes = {
+					3D55C4B320CFE62F00FF1B03 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 3D55C4AF20CFE62F00FF1B03 /* Build configuration list for PBXProject "RepairKitDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D55C4AB20CFE62F00FF1B03;
+			productRefGroup = 3D55C4B520CFE62F00FF1B03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D55C4B320CFE62F00FF1B03 /* RepairKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D55C4B220CFE62F00FF1B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D55C4F120CFE64B00FF1B03 /* Info.plist in Resources */,
+				3D55C4C720CFE63100FF1B03 /* LaunchScreen.storyboard in Resources */,
+				3D55C4C420CFE63100FF1B03 /* Assets.xcassets in Resources */,
+				3D55C4BF20CFE62F00FF1B03 /* Main.storyboard in Resources */,
+				3D55C50420CFF44400FF1B03 /* test-repair in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D55C4B020CFE62F00FF1B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D55C4F020CFE64B00FF1B03 /* sqliterk_os.c in Sources */,
+				3D55C4BC20CFE62F00FF1B03 /* ViewController.m in Sources */,
+				3D55C4EF20CFE64B00FF1B03 /* sqliterk_crypto.c in Sources */,
+				3D55C4E820CFE64B00FF1B03 /* sqliterk_btree.c in Sources */,
+				3D55C4EE20CFE64B00FF1B03 /* sqliterk.c in Sources */,
+				3D55C4E920CFE64B00FF1B03 /* sqliterk_pager.c in Sources */,
+				3D55C4E720CFE64B00FF1B03 /* sqliterk_util.c in Sources */,
+				3D55C4B920CFE62F00FF1B03 /* AppDelegate.m in Sources */,
+				3D55C4EB20CFE64B00FF1B03 /* sqliterk_values.c in Sources */,
+				3D55C4CA20CFE63100FF1B03 /* main.m in Sources */,
+				3D55C4F420CFE6A200FF1B03 /* WCRepairKitManage.mm in Sources */,
+				3D55C4ED20CFE64B00FF1B03 /* sqliterk_output.cpp in Sources */,
+				3D55C4EA20CFE64B00FF1B03 /* sqliterk_column.c in Sources */,
+				3D55C4C220CFE62F00FF1B03 /* RepairKitDemo.xcdatamodeld in Sources */,
+				3D55C4EC20CFE64B00FF1B03 /* sqliterk_api.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D55C4BD20CFE62F00FF1B03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D55C4BE20CFE62F00FF1B03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D55C4C520CFE63100FF1B03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D55C4C620CFE63100FF1B03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D55C4CB20CFE63100FF1B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D55C4CC20CFE63100FF1B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D55C4CE20CFE63100FF1B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSWZ74HQSF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/RepairKit",
+				);
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INFOPLIST_FILE = RepairKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-force_load",
+					./RepairKit/sqlcipher.framework/sqlcipher,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiios.RepairKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D55C4CF20CFE63100FF1B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSWZ74HQSF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/RepairKit",
+				);
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INFOPLIST_FILE = RepairKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-force_load",
+					./RepairKit/sqlcipher.framework/sqlcipher,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiios.RepairKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D55C4AF20CFE62F00FF1B03 /* Build configuration list for PBXProject "RepairKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D55C4CB20CFE63100FF1B03 /* Debug */,
+				3D55C4CC20CFE63100FF1B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D55C4CD20CFE63100FF1B03 /* Build configuration list for PBXNativeTarget "RepairKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D55C4CE20CFE63100FF1B03 /* Debug */,
+				3D55C4CF20CFE63100FF1B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D55C4C020CFE62F00FF1B03 /* RepairKitDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D55C4C120CFE62F00FF1B03 /* RepairKitDemo.xcdatamodel */,
+			);
+			currentVersion = 3D55C4C120CFE62F00FF1B03 /* RepairKitDemo.xcdatamodel */;
+			path = RepairKitDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D55C4AC20CFE62F00FF1B03 /* Project object */;
+}
