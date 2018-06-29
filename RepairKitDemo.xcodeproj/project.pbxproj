@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D1CF36A20E4FAAC0013C31F /* LMCoreDataRepairManage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D1CF36820E4FAAB0013C31F /* LMCoreDataRepairManage.mm */; };
 		3D55C4B920CFE62F00FF1B03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4B820CFE62F00FF1B03 /* AppDelegate.m */; };
 		3D55C4BC20CFE62F00FF1B03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D55C4BB20CFE62F00FF1B03 /* ViewController.m */; };
 		3D55C4BF20CFE62F00FF1B03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D55C4BD20CFE62F00FF1B03 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D1CF36820E4FAAB0013C31F /* LMCoreDataRepairManage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LMCoreDataRepairManage.mm; sourceTree = "<group>"; };
+		3D1CF36920E4FAAB0013C31F /* LMCoreDataRepairManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMCoreDataRepairManage.h; sourceTree = "<group>"; };
 		3D55C4B420CFE62F00FF1B03 /* RepairKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepairKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D55C4B720CFE62F00FF1B03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D55C4B820CFE62F00FF1B03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 		3D55C4B620CFE62F00FF1B03 /* RepairKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3D1CF36920E4FAAB0013C31F /* LMCoreDataRepairManage.h */,
+				3D1CF36820E4FAAB0013C31F /* LMCoreDataRepairManage.mm */,
 				3D55C4B720CFE62F00FF1B03 /* AppDelegate.h */,
 				3D55C4B820CFE62F00FF1B03 /* AppDelegate.m */,
 				3D55C4BA20CFE62F00FF1B03 /* ViewController.h */,
@@ -254,6 +259,7 @@
 				3D55C4E720CFE64B00FF1B03 /* sqliterk_util.c in Sources */,
 				3D55C4B920CFE62F00FF1B03 /* AppDelegate.m in Sources */,
 				3D55C4EB20CFE64B00FF1B03 /* sqliterk_values.c in Sources */,
+				3D1CF36A20E4FAAC0013C31F /* LMCoreDataRepairManage.mm in Sources */,
 				3D55C4CA20CFE63100FF1B03 /* main.m in Sources */,
 				3D55C4F420CFE6A200FF1B03 /* WCRepairKitManage.mm in Sources */,
 				3D55C4ED20CFE64B00FF1B03 /* sqliterk_output.cpp in Sources */,
